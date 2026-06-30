@@ -3,10 +3,257 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/style.css" rel="stylesheet" />
+    <link href="/src/assets/styles/style.css" rel="stylesheet" />
     <title>love-story</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <header>
+      <div
+        class="flex items-center justify-between px-6 py-4 bg-[#FFF8F1]/30 border-b border-[#DAC0C4]/30 shadow-[0_1px_2px_0_#5C04270D] backdrop-blur-md"
+      >
+        <div class="flex items-center gap-2">
+          <img src="/src/assets/icons/header-icons/heart-icon.svg" alt="" aria-hidden="true" class="w-5 h-5" />
+          <p class="font-playfair text-2xl text-[#5C0427]">Love Story</p>
+        </div>
+
+        <!-- <img src="/src/assets/icons/header-icons/hamburger-icon.svg" alt="Open menu" class="w-4 h-4" /> -->
+      </div>
+
+      <section class="flex flex-col items-center gap-20 px-6 pt-20 pb-10 bg-[#FFF8F1]">
+        <div class="flex flex-col items-center gap-3">
+          <h1 class="font-vibes text-5xl leading-none text-center text-[#5C0427]">To the Love of My Life</h1>
+
+          <p class="max-w-sm font-manrope text-base leading-7 text-center text-[#70585B]">
+            Every moment with you is my favorite memory.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center gap-5">
+          <button
+            class="rounded-full border border-[#D4AF37]/30 px-8 py-4 font-manrope text-xs font-semibold tracking-wide text-[#5C0427] shadow-[0_20px_40px_0_#5C04270D] backdrop-blur-xl bg-[linear-gradient(90deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.2)_50%,rgba(255,255,255,0)_100%)]"
+          >
+            OUR STORY
+          </button>
+
+          <img
+            src="/src/assets/icons/header-icons/arrow-down.svg"
+            alt=""
+            aria-hidden="true"
+            class="w-4 h-5 animate-bounce"
+          />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="flex items-center justify-center px-6 py-24 bg-[#FFF8F1]">
+        <div class="w-full max-w-md rounded-2xl border border-[#5C04271A] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]">
+          <p class="font-manrope text-xs font-semibold tracking-[1.2px] text-center text-[#70585B]">
+            DAYS OF PURE HAPPINESS
+          </p>
+
+          <p class="mt-2 font-playfair text-6xl font-bold text-center text-[#5C0427]">2,059</p>
+
+          <p class="mt-2 flex flex-col text-center text-base leading-6 text-[#554245]">
+            <span>...and counting towards</span>
+            <span>forever.</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="flex flex-col px-6 py-24 bg-[#F9F3EB]">
+        <div class="flex flex-col items-center gap-4 mb-16">
+          <img src="/src/assets/icons/main-icons/book-icon.svg" alt="" aria-hidden="true" class="w-6 h-6" />
+
+          <p class="font-playfair text-4xl leading-tight text-center text-[#5C0427]">
+            The Path We've <span class="block">Walked</span>
+          </p>
+
+          <hr class="w-24 border-0 h-px bg-[#CCA730]" />
+        </div>
+
+        <article class="flex flex-col gap-8 max-w-md mx-auto mb-32">
+          <div class="flex flex-col gap-4">
+            <p
+              class="w-fit rounded-full font-manrope font-semibold text-xs tracking-[1.8px] text-[#3F0018] bg-[#FFD9DF] px-4 py-1"
+            >
+              AUTUMN 2018
+            </p>
+
+            <h3 class="font-playfair text-3xl leading-tight text-[#5C0427]">First Meeting</h3>
+
+            <p class="font-manrope text-base leading-7 text-[#554245]">
+              The world seemed to stop when I first saw you. It wasn't just a meeting; it was the start of everything.
+            </p>
+          </div>
+
+          <img
+            src="/src/assets/images/main-images/first-meeting.png"
+            alt="First meeting illustration"
+            class="w-full object-cover rounded-md"
+          />
+        </article>
+
+        <article class="flex flex-col gap-8 max-w-md mx-auto mb-32">
+          <div class="flex flex-col gap-4">
+            <p
+              class="w-fit rounded-full font-manrope font-semibold text-xs tracking-[1.8px] text-[#3F0018] bg-[#FFD9DF] px-4 py-1"
+            >
+              A WEEK LATER
+            </p>
+
+            <h3 class="font-playfair text-3xl leading-tight text-[#5C0427]">Our First Date</h3>
+
+            <p class="font-manrope text-base leading-7 text-[#554245]">
+              Three hours felt like three minutes. I knew then that I never wanted the conversation to end.
+            </p>
+          </div>
+
+          <img
+            src="/src/assets/images/main-images/first-date.png"
+            alt="First date illustration"
+            class="w-full object-cover rounded-md"
+          />
+        </article>
+
+        <article class="flex flex-col gap-8 max-w-md mx-auto">
+          <div class="flex flex-col gap-4">
+            <p
+              class="w-fit rounded-full font-manrope font-semibold text-xs tracking-[1.8px] text-[#3F0018] bg-[#FFD9DF] px-4 py-1"
+            >
+              SUMMER 2019
+            </p>
+
+            <h3 class="font-playfair text-3xl leading-tight text-[#5C0427]">The First Trip</h3>
+
+            <p class="font-manrope text-base leading-7 text-[#554245]">
+              Exploring the Amalfi Coast, we realized we were our favorite destinations. Every sunrise felt like a
+              promise.
+            </p>
+          </div>
+
+          <img
+            src="/src/assets/images/main-images/first-trip.png"
+            alt="First trip illustration"
+            class="w-full object-cover rounded-md"
+          />
+        </article>
+      </section>
+
+      <section class="flex flex-col px-6 py-24 bg-[#FFF8F1] gap-16">
+        <div class="flex flex-col items-center gap-2">
+          <h3 class="font-playfair text-3xl leading-tight text-center text-[#5C0427]">Captured Moments</h3>
+
+          <p class="font-manrope text-base leading-7 text-center text-[#70585B] max-w-md">
+            The echoes of our laughter and love.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <img
+            src="/src/assets/images/main-images/first.jpg"
+            alt="Moment 1"
+            class="w-full h-64 object-cover rounded-xl"
+          />
+          <img
+            src="/src/assets/images/main-images/second.jpg"
+            alt="Moment 2"
+            class="w-full h-64 object-cover rounded-xl"
+          />
+          <img
+            src="/src/assets/images/main-images/third.jpg"
+            alt="Moment 3"
+            class="w-full h-64 object-cover rounded-xl"
+          />
+          <img
+            src="/src/assets/images/main-images/fourth.jpg"
+            alt="Moment 4"
+            class="w-full h-64 object-cover rounded-xl"
+          />
+        </div>
+      </section>
+
+      <section class="flex flex-col px-6 py-24 bg-[#E8E1DA] gap-12">
+        <div class="flex flex-col items-center gap-4">
+          <p class="font-playfair text-4xl leading-tight text-center text-[#5C0427]">
+            A Few Reasons <span class="block">Why</span>
+          </p>
+
+          <hr class="w-24 border-0 h-px bg-[#5C0427]" />
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <img src="/src/assets/icons/main-icons/stars-icon.svg" alt="" aria-hidden="true" class="w-6 h-6" />
+
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              The way you smile at me before I've even said hello.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <img src="/src/assets/icons/main-icons/cup-icon.svg" alt="" aria-hidden="true" class="w-6 h-6" />
+
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              How you always know exactly how much sugar I need.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <img src="/src/assets/icons/main-icons/book-reason-icon.svg" alt="" aria-hidden="true" class="w-6 h-6" />
+
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              Your incredible passion for the stories we read together.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <img src="/src/assets/icons/main-icons/home-icon.svg" alt="" aria-hidden="true" class="w-6 h-6" />
+
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              Because "home" stopped being a place and became you.
+            </p>
+          </article>
+        </div>
+
+        <p class="font-manrope text-base leading-7 text-center text-[#70585B] max-w-md mx-auto">
+          ...and 96 more that I tell you every single day.
+        </p>
+      </section>
+      <section
+        class="flex flex-col gap-12 px-6 py-24 bg-[url('/src/assets/images/main-images/background.png')] bg-no-repeat bg-cover"
+      >
+        <h3 class="font-playfair font-normal italic text-4xl leading-tight text-[#5C0427]">My Dearest...</h3>
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">
+          There are no words in any language that can truly capture the depth of what I feel for you. You are my
+          compass, my peace, and my greatest adventure.
+        </p>
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">
+          Through every season, your hand in mine is the only thing I need. Thank you for being the beautiful soul that
+          you are.
+        </p>
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">Yours Forever,</p>
+
+        <p class="font-vibes italic text-4xl leading-tight text-[#5C0427]">Your Forever Love</p>
+      </section>
+    </main>
+
+    <footer class="flex flex-col gap-6 px-6 py-24 bg-[#33302B]">
+      <h3 class="font-vibes font-normal text-5xl leading-[48px] text-center text-[#FFB1C2]">
+        "I would choose you in every lifetime."
+      </h3>
+      <hr class="place-self-center w-24 bg-[#70585B]" />
+      <p class="font-manrope font-normal text-base leading-tight text-center text-[#574144]">
+        With all my love, forever & always
+      </p>
+    </footer>
   </body>
 </html>
