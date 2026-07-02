@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>love-story</title>
+    <script type="module" crossorigin src="/assets/index-CyulArRU.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CNEgGMhS.css">
+  </head>
+  <body>
+    <header>
+      <div
+        class="flex items-center justify-between px-6 py-4 bg-[#FFF8F1]/30 border-b border-[#DAC0C4]/30 shadow-[0_1px_2px_0_#5C04270D] backdrop-blur-md lg:px-24"
+      >
+        <div class="flex items-center gap-2">
+          <img src="data:image/svg+xml,%3csvg%20width='20'%20height='19'%20viewBox='0%200%2020%2019'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%2018.35L8.55%2017.05C6.86667%2015.5333%205.475%2014.225%204.375%2013.125C3.275%2012.025%202.4%2011.0375%201.75%2010.1625C1.1%209.2875%200.645833%208.48333%200.3875%207.75C0.129167%207.01667%200%206.26667%200%205.5C0%203.93333%200.525%202.625%201.575%201.575C2.625%200.525%203.93333%200%205.5%200C6.36667%200%207.19167%200.183333%207.975%200.55C8.75833%200.916667%209.43333%201.43333%2010%202.1C10.5667%201.43333%2011.2417%200.916667%2012.025%200.55C12.8083%200.183333%2013.6333%200%2014.5%200C16.0667%200%2017.375%200.525%2018.425%201.575C19.475%202.625%2020%203.93333%2020%205.5C20%206.26667%2019.8708%207.01667%2019.6125%207.75C19.3542%208.48333%2018.9%209.2875%2018.25%2010.1625C17.6%2011.0375%2016.725%2012.025%2015.625%2013.125C14.525%2014.225%2013.1333%2015.5333%2011.45%2017.05L10%2018.35Z'%20fill='%235C0427'/%3e%3c/svg%3e" alt="" aria-hidden="true" class="w-5 h-5" />
+
+          <p class="font-playfair text-2xl text-[#5C0427] lg:text-4xl">Історія кохання</p>
+        </div>
+      </div>
+
+      <section class="flex flex-col items-center gap-20 bg-[#FFF8F1] px-6 pt-20 pb-10 lg:px-24 lg:pt-32">
+        <div id="js-hearts" class="absolute inset-0 pointer-events-none overflow-hidden"></div>
+        <div class="flex w-full max-w-5xl flex-col items-center gap-3">
+          <h1 class="font-vibes text-5xl leading-none text-center text-[#5C0427] lg:text-9xl lg:leading-[128px]">
+            Коханню всього мого життя
+          </h1>
+
+          <p class="max-w-sm text-center font-manrope text-base leading-7 text-[#70585B]">
+            Кожна мить поруч із тобою — моя найулюбленіша згадка.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center gap-5">
+          <button
+            id="js-open-video"
+            type="button"
+            class="cursor-pointer rounded-full border border-[#D4AF37]/30 px-8 py-4 font-manrope text-xs font-semibold tracking-[2px] text-[#5C0427] shadow-[0_20px_40px_0_#5C04270D] backdrop-blur-xl bg-[linear-gradient(90deg,rgba(255,255,255,0)_0%,rgba(255,255,255,0.2)_50%,rgba(255,255,255,0)_100%)] transition-all duration-300 hover:scale-105 hover:shadow-[0_24px_48px_0_#5C042714] lg:px-10 lg:py-5 lg:text-sm"
+          >
+            НАША ІСТОРІЯ
+          </button>
+
+          <img
+            src="data:image/svg+xml,%3csvg%20width='18'%20height='21'%20viewBox='0%200%2018%2021'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9%2020.1L0%2011.1L2.1%209L9%2015.8625L15.9%209L18%2011.1L9%2020.1ZM9%2011.1L0%202.1L2.1%200L9%206.8625L15.9%200L18%202.1L9%2011.1Z'%20fill='%235C0427'%20fill-opacity='0.5'/%3e%3c/svg%3e"
+            alt=""
+            aria-hidden="true"
+            class="w-4 h-5 animate-bounce"
+          />
+        </div>
+
+        <div
+          id="js-video-modal"
+          class="hidden fixed inset-0 z-50 items-center justify-center bg-black/50 backdrop-blur-sm px-4"
+        >
+          <div class="relative w-full max-w-4xl">
+            <button id="js-close-video" class="cursor-pointer absolute -top-12 right-0 text-4xl text-white">×</button>
+
+            <video class="w-full h-auto rounded-xl" src="/assets/weeding-CgWgdJtd.mp4" controls autoplay></video>
+          </div>
+        </div>
+
+        <div class="js-video hidden justify-center items-center absolute inset-0 bg-grey-500/20 backdrop-blur-xs"></div>
+      </section>
+    </header>
+
+    <main>
+      <section class="flex items-center justify-center px-6 py-24 bg-[#FFF8F1] lg:hidden">
+        <div class="w-full max-w-md rounded-2xl border border-[#5C04271A] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]">
+          <p class="font-manrope text-xs font-semibold tracking-[1.2px] text-center text-[#70585B]">
+            ДНІ ЧИСТОГО ЩАСТЯ
+          </p>
+
+          <p class="mt-2 font-playfair text-6xl font-bold text-center text-[#5C0427]">2,059</p>
+
+          <p class="mt-2 flex flex-col text-center text-base leading-6 text-[#554245]">
+            <span>...і їх стає дедалі більше</span>
+            <span>на шляху до вічності.</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="bg-[#F9F3EB] px-6 py-24 lg:px-24">
+        <div class="mb-24 flex flex-col items-center gap-4">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='33'%20height='30'%20viewBox='0%200%2033%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16.5%2029.25C15.3%2028.3%2014%2027.5625%2012.6%2027.0375C11.2%2026.5125%209.75%2026.25%208.25%2026.25C7.2%2026.25%206.16875%2026.3875%205.15625%2026.6625C4.14375%2026.9375%203.175%2027.325%202.25%2027.825C1.725%2028.1%201.21875%2028.0875%200.73125%2027.7875C0.24375%2027.4875%200%2027.05%200%2026.475V8.4C0%208.125%200.06875%207.8625%200.20625%207.6125C0.34375%207.3625%200.55%207.175%200.825%207.05C1.975%206.45%203.175%206%204.425%205.7C5.675%205.4%206.95%205.25%208.25%205.25C9.7%205.25%2011.1188%205.4375%2012.5063%205.8125C13.8938%206.1875%2015.225%206.75%2016.5%207.5V25.65C17.775%2024.85%2019.1125%2024.25%2020.5125%2023.85C21.9125%2023.45%2023.325%2023.25%2024.75%2023.25C25.65%2023.25%2026.5312%2023.325%2027.3937%2023.475C28.2562%2023.625%2029.125%2023.85%2030%2024.15V6.15C30.375%206.275%2030.7438%206.40625%2031.1063%206.54375C31.4688%206.68125%2031.825%206.85%2032.175%207.05C32.45%207.175%2032.6562%207.3625%2032.7938%207.6125C32.9313%207.8625%2033%208.125%2033%208.4V26.475C33%2027.05%2032.7562%2027.4875%2032.2687%2027.7875C31.7812%2028.0875%2031.275%2028.1%2030.75%2027.825C29.825%2027.325%2028.8563%2026.9375%2027.8438%2026.6625C26.8312%2026.3875%2025.8%2026.25%2024.75%2026.25C23.25%2026.25%2021.8%2026.5125%2020.4%2027.0375C19%2027.5625%2017.7%2028.3%2016.5%2029.25ZM19.5%2021.75V7.5L27%200V15L19.5%2021.75ZM13.5%2024.1875V9.3375C12.675%208.9875%2011.8187%208.71875%2010.9312%208.53125C10.0437%208.34375%209.15%208.25%208.25%208.25C7.325%208.25%206.425%208.3375%205.55%208.5125C4.675%208.6875%203.825%208.95%203%209.3V24.1875C3.875%2023.8625%204.74375%2023.625%205.60625%2023.475C6.46875%2023.325%207.35%2023.25%208.25%2023.25C9.15%2023.25%2010.0312%2023.325%2010.8938%2023.475C11.7563%2023.625%2012.625%2023.8625%2013.5%2024.1875ZM13.5%2024.1875V9.3375V24.1875Z'%20fill='%235C0427'/%3e%3c/svg%3e"
+            alt=""
+            aria-hidden="true"
+            class="h-6 w-6 lg:h-8 lg:w-8"
+          />
+
+          <h2 class="font-playfair text-center text-4xl leading-tight text-[#5C0427] lg:text-5xl lg:leading-[52px]">
+            Шлях, який ми <span class="block lg:inline">пройшли разом</span>
+          </h2>
+
+          <hr class="h-px w-24 border-0 bg-[#CCA730]" />
+        </div>
+
+        <div class="mx-auto flex max-w-7xl flex-col gap-32">
+          <article class="flex flex-col gap-8 lg:grid lg:grid-cols-2 lg:items-center lg:gap-20">
+            <div class="flex flex-col gap-4">
+              <p
+                class="w-fit rounded-full bg-[#FFD9DF] px-4 py-1 font-manrope text-xs font-semibold tracking-[1.8px] text-[#3F0018]"
+              >
+                ОСІНЬ 2017
+              </p>
+
+              <h3 class="font-playfair text-3xl text-[#5C0427] lg:text-5xl">Перша зустріч</h3>
+
+              <p class="font-manrope text-base leading-7 text-[#554245] lg:text-lg">
+                Коли я вперше побачив тебе. Це була не просто зустріч — це був початок усього.
+              </p>
+            </div>
+
+            <img
+              id="image"
+              src="/assets/first-meeting-PRcWGHW4.png"
+              alt="Ілюстрація першої зустрічі"
+              class="w-full rounded-2xl object-cover"
+            />
+          </article>
+
+          <article class="flex flex-col gap-8 lg:grid lg:grid-cols-2 lg:items-center lg:gap-20">
+            <img
+              src="/assets/first-date-B9_3PXVA.png"
+              alt="Ілюстрація першого побачення"
+              class="order-2 w-full rounded-2xl object-cover lg:order-1"
+            />
+
+            <div class="order-1 flex flex-col gap-4 lg:order-2">
+              <p
+                class="w-fit rounded-full bg-[#FFD9DF] px-4 py-1 font-manrope text-xs font-semibold tracking-[1.8px] text-[#3F0018]"
+              >
+                ЧЕРЕЗ 6 МІСЯЦІВ
+              </p>
+
+              <h3 class="font-playfair text-3xl text-[#5C0427] lg:text-5xl">Наше перше побачення</h3>
+
+              <p class="font-manrope text-base leading-7 text-[#554245] lg:text-lg">
+                Ми гуляли біля парку, сиділи на лавочці та довго розмовляли про різні речі.Години промайнули, немов три
+                хвилини. Тоді я зрозумів, що ніколи не хочу, щоб наша розмова закінчувалася.
+              </p>
+            </div>
+          </article>
+
+          <article class="flex flex-col gap-8 lg:grid lg:grid-cols-2 lg:items-center lg:gap-20">
+            <div class="flex flex-col gap-4">
+              <p
+                class="w-fit rounded-full bg-[#FFD9DF] px-4 py-1 font-manrope text-xs font-semibold tracking-[1.8px] text-[#3F0018]"
+              >
+                ЛІТО 2021
+              </p>
+
+              <h3 class="font-playfair text-3xl text-[#5C0427] lg:text-5xl">Перша подорож</h3>
+
+              <p class="font-manrope text-base leading-7 text-[#554245] lg:text-lg">
+                Наша перша подорож була до Одеси, на море. Вона сталася спонтанно — ми вирішили поїхати й організували
+                все лише за один день. Хоч ти згоріла на сонці та тебе вкусила бджола, ця поїздка залишила багато
+                веселих і незабутніх спогадів.
+              </p>
+            </div>
+
+            <img
+              src="/assets/first-trip-DxOde0y8.png"
+              alt="Ілюстрація першої подорожі"
+              class="w-full rounded-2xl object-cover"
+            />
+          </article>
+        </div>
+      </section>
+
+      <section class="flex flex-col px-6 py-24 bg-[#FFF8F1] gap-16">
+        <div class="flex flex-col items-center gap-2">
+          <h3 class="font-playfair text-3xl leading-tight text-center text-[#5C0427] lg:text-5xl lg:leading-[52px]">
+            Збережені миті
+          </h3>
+
+          <p class="font-manrope text-base leading-7 text-center text-[#70585B] max-w-md">
+            Відлуння нашого сміху та кохання.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+          <img
+            src="/assets/first-CBfctq6o.jpg"
+            alt="Moment 1"
+            class="h-64 w-full rounded-xl object-cover lg:h-[382px]"
+          />
+
+          <img
+            src="/assets/second-d6H6Dy0z.jpg"
+            alt="Moment 2"
+            class="h-64 w-full rounded-xl object-cover lg:h-[382px]"
+          />
+
+          <img
+            src="/assets/third-CT2PKv1_.jpg"
+            alt="Moment 3"
+            class="h-64 w-full rounded-xl object-cover lg:h-[382px]"
+          />
+          <img
+            src="/assets/fourth-MJ9KWCPd.jpg"
+            alt="Moment 3"
+            class="h-64 w-full rounded-xl object-cover lg:h-[382px]"
+          />
+        </div>
+      </section>
+
+      <section class="flex flex-col px-6 py-24 bg-[#E8E1DA] gap-12 lg:px-8">
+        <div class="flex flex-col items-center gap-4">
+          <p class="font-playfair text-4xl leading-tight text-center text-[#5C0427] lg:text-5xl lg:leading-[52px]">
+            Кілька причин <span class="block lg:inline">чому</span>
+          </p>
+
+          <hr class="w-24 border-0 h-px bg-[#5C0427]" />
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-4">
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427] lg:text-3xl lg:leading-[36px]">
+              Те, як ти усміхаєшся робить мене щасливим.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              Те, як ти завжди намагаєшся розвеселити мене і зробити кожен момент особливим.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              Твоя неймовірна щирість робить тебе по-справжньому особливою.
+            </p>
+          </article>
+
+          <article
+            class="flex flex-col items-center gap-4 max-w-md mx-auto rounded-2xl border border-[#D4AF374D] px-8 py-10 shadow-[0_20px_40px_0_#5C04270D]"
+          >
+            <p class="font-vibes text-2xl leading-tight text-center text-[#5C0427]">
+              Тому що слово «дім» перестало означати місце й стало означати тебе.
+            </p>
+          </article>
+        </div>
+
+        <p class="font-manrope text-base leading-7 text-center text-[#70585B] max-w-md mx-auto">
+          ...і ще 96 причин, які я повторюю тобі щодня.
+        </p>
+      </section>
+
+      <section
+        class="flex flex-col gap-12 px-6 py-24 bg-[url('/src/assets/images/main-images/background.png')] bg-no-repeat bg-cover lg:px-8"
+      >
+        <h3
+          class="font-playfair font-normal italic text-4xl leading-tight text-[#5C0427] lg:text-5xl lg:leading-[52px]"
+        >
+          Моя найдорожча...
+        </h3>
+
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">
+          У жодному слові неможливо передати всю силу моєї любові до тебе. Ти стала моїм натхненням і тією людиною, яка
+          мотивує мене ставати кращим. Ти — мій компас, що веде мене вперед і показує правильний напрямок у житті.
+        </p>
+
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">
+          У будь-яку пору року твоя рука в моїй — це все, що мені потрібно. Дякую тобі за те, що ти саме така прекрасна
+          душа.
+        </p>
+
+        <p class="font-vibes font-normal text-3xl leading-[48px] text-[#554245]">Навіки твій,</p>
+
+        <p class="font-vibes italic text-4xl leading-tight text-[#5C0427]">Твоє вічне кохання</p>
+      </section>
+    </main>
+
+    <footer class="flex flex-col gap-6 px-6 py-24 bg-[#33302B]">
+      <h3
+        class="font-vibes font-normal text-5xl leading-[48px] text-center text-[#FFB1C2] lg:text-6xl lg:leading-[60px]"
+      >
+        "Я б обирав(ла) тебе в кожному житті."
+      </h3>
+
+      <hr class="place-self-center w-24 border-[#70585B]" />
+
+      <p class="font-manrope font-normal text-base leading-tight text-center text-[#574144]">
+        З усім моїм коханням, назавжди і навіки
+      </p>
+    </footer>
+  </body>
+</html>
