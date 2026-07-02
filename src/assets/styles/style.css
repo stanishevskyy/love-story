@@ -7,3 +7,23 @@
   --font-playfair: 'Playfair Display', serif;
   --font-manrope: 'Manrope', sans-serif;
 }
+
+@keyframes float {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.8;
+  }
+
+  to {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+@utility animate-float {
+  animation: float linear forwards;
+}
